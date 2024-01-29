@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Public+Sans:wght@100;200&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100&display=swap');
+
+    .header{
+         padding-top: 23px;
+    }
+
+  .header-list{
+     display: flex;
+     align-items: center;
+     gap: 64px;
+        margin-top: 9px;
+      list-style: none;
+  }
+
+   .header-item{
+    font-family: "Lato";
+   }
+   
+  .header-box{
+     display: flex;
+     align-items: center;
+      justify-content: space-between;
+  }
+
+   .header-end{ 
+     display: flex;
+     align-items: center;
+     gap: 14px;
+    
+   }
+
+   .header-btn{
+     padding: 14px 20px 16px 20px;
+     border-radius: 100px;
+     background: #000;
+     box-shadow: 0px 0px 0px 0px #000;
+     color: #fff;
+     border: none;
+     font-family: "Lato";
+   }
+
+   .hero{
+     padding-top: 44px;
+   }
+
+   .hero-box{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .hero-title{
+    color: #000;
+    font-weight: 400px;
+    text-align: center;
+    font-family: "Lato";
+    width: 430px;
+    font-size: 50px;
+   }
+
+   .hero-texas{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+
+   .hero-text{
+    color: #242424;
+    font-weight: 400px;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 20px;
+    width: 424px;
+    margin-top: 26px;
+   }
+
+   .hero-box-two{
+     display: flex;
+      margin-top: 21px;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   .hero-btn{
+     padding: 14px 20px 16px 20px;
+     background: none;
+     border: none;
+     outline: none;
+   }
+
+   .about{
+     padding-top: 150px;
+   }
+
+   .about-box{
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 43px;
+   }
+
+   .about-title{
+    width: 649px;
+    text-align: center;
+    color: #000;
+    font-weight: 400px;
+    text-align: center;
+    font-size: 50px;
+    
+   }
+
+   .about-wrapper{
+            display: flex;
+            align-items: center;
+            gap: 96px;
+            justify-content: center;
+     }
+
+      .about-title-two{
+        color: #000;    
+        font-weight: 400px;
+        font-family: "Lato";
+        font-size: 39px;
+      }
+
+      .about-parrent{
+         display: flex;
+         justify-content: space-between;
+         margin-top: 75px;
+      }
+
+      .about-text-two{
+        color: #000;
+        font-weight: 400px;
+        font-family: "Lato";
+        font-size: 19px;
+      }
+
+
+      .pro{
+        background: #E2EEF3;
+        padding: 76px 120px 196px;
+      }
+
+      .pro-title{
+        width: 528px;
+        color: #000;
+        font-weight: 400px; 
+      }
+
+      .pro-box{
+         display: flex;
+         justify-content: center;
+         margin-bottom: 70px;
+         margin-left: 13%;
+      }
+
+      .pro-list{
+         display: flex;
+         align-items: center;
+         gap: 36px;
+         list-style: none;
+         justify-content: center;
+         cursor: pointer;
+      }
+
+      .pro-card{
+        border-radius: 100px;
+        background: #FFF;
+        padding: 34px 36px;
+      }
+      
+       .pro-item:hover{
+        border-radius: 98px;
+        background: #E2EEF3;
+        box-shadow: 0px 0px 0px 0px #8F8F8F;
+        height: 37px;
+        padding: 0 19px;
+       }
+
+       .pro-wrapp{
+         margin-top: 135px;
+          display: flex;
+          align-items: center;
+          gap: 150px;
+       }
+
+       .pro-text-two{
+         color: grey;
+         width: 342px;
+        font-weight: 400px;
+        font-family: "Lato";
+        font-size: 19px;
+        
+       }
+
+       .pro-btn{
+         padding: 11px 53px 11px 32px ;
+         background-color: #000;
+         color: #FFF;
+         border-radius: 100px;
+         box-shadow: 0px 0px 0px 0px #000;
+         border: none;
+       }
+
+     
+       .core{
+         padding-top: 98px;
+       }
+
+
+       .core-title{
+         color: black;
+         font-family: "Lato";
+         font-size: 50px;
+         font-weight: 400px;
+         margin-bottom: 30px;
+       }
+
+       .core-text{
+        width: 369px;
+        font-size: 20px;
+        font-weight: 300px;
+        font-family: "Lato";
+
+       }
+   
+      .core-box{
+          display: flex;
+          column-gap: 25px;
+          justify-content: space-between;
+          margin-bottom: 25px;
+      }
+
+      .core-icon{
+         display: flex;
+         align-items: center;
+      }
+
+    
+       .box{
+         padding-top: 143px;
+       }
+
+       .box-wrapper{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-left: 56px;
+         margin-bottom: 39px;
+       }
+
+       .box-title{
+        color: #000;
+        font-weight: 440px; 
+        font-family: "Lato";
+        font-size: 30px;
+       }
+
+       .box-text{
+        width: 891px;
+        color: #000;
+        font-style: 20px;
+        font-weight: 400px;
+       }
+
+       .box-text-two{
+        width: 332px;
+        color: #000;
+        font-weight: 400px;
+        font-family: "Plus Jakarta Sans";
+        font-size: 20px;
+        margin-top: 12px;
+       }
+
+       .box-group{
+         display: flex;
+         align-items: center;
+        column-gap: 210px;
+       }
+
+
+
+
+        .web{
+           padding-top: 130px;
+        }
+
+
+        .web-box{
+           display: flex;
+           flex-direction: column;
+          align-items: center;
+          gap: 19px;
+          }
+
+          .web-title-two{
+            color: #000;
+            font-weight: 400px;
+            font-family: "Plus Jakarta Sans";
+            font-size: 19px;
+          }
+
+          .web-title{
+            color: #000;
+            font-weight: 400px;
+            text-align: center;
+            width: 584px;
+            font-size: 28px;
+          }
+
+          .web-texas{
+             display: flex;
+             justify-content: center;
+             margin-bottom: 29px;
+          }
+
+          .web-card{
+            background: #E2EEF3;
+            padding: 38px 43px 84px 43px;
+          }
+
+
+       
